@@ -1,0 +1,20 @@
+﻿<Window x:Class="RadioButton.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RadioButton"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel x:Name="stackPAnel">
+            <RadioButton GroupName="color" Content="Красный" IsChecked="True"/>
+            <RadioButton GroupName="color" Content="Синий" />
+            <RadioButton GroupName="color" Content="Зеленый"/>
+            <RadioButton GroupName="size" Content="12" IsChecked="True"/>
+            <RadioButton GroupName="size" Content="14"/>
+            <RadioButton GroupName="size" Content="16"/>
+        </StackPanel>
+        
+    </Grid>
+</Window>
